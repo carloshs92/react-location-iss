@@ -20,8 +20,8 @@ class Map extends Component {
                 defaultZoom={4}
             >
                 <Point
-                    lat={this.props.lat}
-                    lng={this.props.lng}
+                    lat={lat}
+                    lng={lng}
                 />
             </GoogleMapReact>
         );
