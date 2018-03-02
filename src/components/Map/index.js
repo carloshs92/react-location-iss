@@ -4,6 +4,7 @@ import marker from '../../assets/img/marker.png';
 
 const Point = () => <div><img src={marker} width={'32'} height={'32'} alt={'marker'}/></div>;
 
+
 class Map extends Component {
 
     constructor(props) {

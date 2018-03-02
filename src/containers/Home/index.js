@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Map from '../../components/Map';
 import './index.css'
 import ISSService from '../../services/iss.service';
+import Legend from "../../components/Legend";
 
 class Home extends Component {
 
@@ -38,6 +39,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
+                <Legend/>
                 <Map lat={this.state.lat} lng={this.state.lng}/>
             </div>
         );
